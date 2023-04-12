@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-findrestaurantapp-staging-221931-authRole",
+      "UnauthRoleArn": "arn:aws:iam::299615311248:role/amplify-findrestaurantapp-staging-221931-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::299615311248:role/amplify-findrestaurantapp-staging-221931-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-findrestaurantapp-staging-221931-deployment",
+      "UnauthRoleName": "amplify-findrestaurantapp-staging-221931-unauthRole",
+      "StackName": "amplify-findrestaurantapp-staging-221931",
+      "StackId": "arn:aws:cloudformation:eu-north-1:299615311248:stack/amplify-findrestaurantapp-staging-221931/ef19b400-d8b6-11ed-b6d8-0acfb0293a00",
+      "AmplifyAppId": "d3fgtbt8kdmbpm"
+    }
+  }
+}

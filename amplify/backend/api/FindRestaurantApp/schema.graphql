@@ -1,0 +1,27 @@
+type Meal @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  type: String
+  description: String
+  price: Float
+  imageUrl: AWSURL
+  restaurantID: ID! @index(name: "byRestaurant")
+  ingredients: String
+}
+
+type Restaurant @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  type: String
+  address: String
+  phone: String
+  website: AWSURL
+  imageUrl: AWSURL
+  logoUrl: AWSURL
+  menu: String
+  hours: String
+  description: String
+  Meals: [Meal] @hasMany(indexName: "byRestaurant", fields: ["id"])
+  serviceOption: String
+}
+ 
